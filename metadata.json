@@ -1,0 +1,9 @@
+{
+    "id": "TheAusieMod",
+    "name": "Ausie Mod",
+    "author": ["Austin Paukert"],
+    "description": "A Vanilla+ mod",
+    "prefix": "bves",
+    "main_file": "main.lua",
+    "version": "1.0.0"
+}
