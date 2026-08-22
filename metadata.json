@@ -5,5 +5,7 @@
     "description": "A Vanilla+ mod",
     "prefix": "bves",
     "main_file": "main.lua",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "badge_colour": "ffeac2",
+    "badge_text_colour": "2200ff"
 }
