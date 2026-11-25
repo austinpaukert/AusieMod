@@ -32,9 +32,9 @@ return{
             j_bves_red_flag = {
                 name = "Red Flag",
                 text = {
-                    "{C:mult}+#.05x#{} mult for",
+                    "{X:red,C:white} X0.05 {} Mult for",
                     "each {C:money}$1{} you have",
-                    "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
+                    "{C:inactive}(Currently {X:red,C:white} X#1# {} {C:inactive} Mult)",
                 },
             },
         }
