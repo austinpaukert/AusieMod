@@ -24,10 +24,18 @@ return{
                 name = "Wheel Of Construction",
                 text = {
                     "After {C:attention}#1#{} rounds,",
-                    "sell this card for a",
-                    "{C:green}1 in 4{} chance to create a blueprint",
+                    "Sell this card for a",
+                    "{C:green}1 in 4{} chance to create a blueprint (odds cannot change)",
                     "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)",
                 }
+            },
+            j_bves_red_flag = {
+                name = "Red Flag",
+                text = {
+                    "{C:mult}+#.05x#{} mult for",
+                    "each {C:money}$1{} you have",
+                    "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
+                },
             },
         }
     }
