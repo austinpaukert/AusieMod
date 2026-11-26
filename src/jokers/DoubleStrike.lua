@@ -29,6 +29,8 @@ SMODS.Joker {
     end
 }
 
+
+-- For syncing puposes
 local function reset_vremade_double_strike()
     G.GAME.current_round.vremade_double_strike = G.GAME.current_round.vremade_double_strike or { suit = 'Spades' }
     local ancient_suits = {}

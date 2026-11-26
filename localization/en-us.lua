@@ -41,9 +41,19 @@ return{
                 name = "Double Strike",
                 text = {
                     "Each played card with",
-                    "{V:1}#2#{} suit gives",
-                    "{C:money} +1${} when scored,",
+                    "{V:1}#2#{} suit earns",
+                    "{C:money} $2{} when scored,",
                     "{s:0.8}suit changes at end of round",
+                },
+            },
+            j_bves_texas_holdem = {
+                name = "Texas Hold'em",
+                text = {
+                    "This joker earns {C:chips}$#2#{} Chips if {C:attention}poker hand{}",
+                    "is a {C:attention}#3#{},",
+                    "poker hand changes",
+                    "at end of round",
+                    "{C:inactive}(Currently {C:chips}+#1#{C:inactive} Chips)",
                 },
             },
         }
