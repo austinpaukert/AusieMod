@@ -49,11 +49,18 @@ return{
             j_bves_texas_holdem = {
                 name = "Texas Hold'em",
                 text = {
-                    "This joker earns {C:chips}$#2#{} Chips if {C:attention}poker hand{}",
+                    "This joker earns {C:chips}#2#{} Chips ",
+                    "if {C:attention}poker hand{}",
                     "is a {C:attention}#3#{},",
                     "poker hand changes",
                     "at end of round",
                     "{C:inactive}(Currently {C:chips}+#1#{C:inactive} Chips)",
+                },
+            },
+            j_bves_miner = {
+                name = "The Miner",
+                text = {
+                    "Stone cards give {C:mult}+#1#{} Mult",
                 },
             },
         }
