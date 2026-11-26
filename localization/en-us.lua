@@ -37,6 +37,15 @@ return{
                     "{C:inactive}(Currently {X:red,C:white} X#2# {} {C:inactive} Mult)",
                 },
             },
+            j_bves_double_strike = {
+                name = "Double Strike",
+                text = {
+                    "Each played card with",
+                    "{V:1}#2#{} suit gives",
+                    "{C:money} +1${} when scored,",
+                    "{s:0.8}suit changes at end of round",
+                },
+            },
         }
     }
 }
