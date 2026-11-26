@@ -68,7 +68,7 @@ return{
                 
                 text = {
                     "This joker has a {C:green}#1# in #2#{} chance",
-                    "to give {C:mult}+#3#{} Mult",
+                    "to give {X:red,C:white}X#3#{} Mult",
                 },
             },
         }

@@ -6,7 +6,7 @@ SMODS.Joker {
     rarity = 1,
     cost = 4,
     pos = { x = 0, y = 0 },
-    config = { extra = { odds = 2, Xmult = 3 } },
+    config = { extra = { odds = 2, Xmult = 4} },
     loc_vars = function(self, info_queue, card)
         local numerator, denominator = SMODS.get_probability_vars(card, 1, card.ability.extra.odds, 'bves_shrodingers_cat')
         return { vars = {numerator, denominator, card.ability.extra.Xmult} }
