@@ -25,7 +25,7 @@ return{
                 text = {
                     "After {C:attention}#1#{} rounds,",
                     "Sell this card for a",
-                    "{C:green}1 in 4{} chance to create a blueprint (odds cannot change)",
+                    "{C:green}#4# in #5#{} chance to create a blueprint",
                     "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)",
                 }
             },
@@ -61,6 +61,14 @@ return{
                 name = "The Miner",
                 text = {
                     "Stone cards give {C:mult}+#1#{} Mult",
+                },
+            },
+            j_bves_shrodingers_cat = {
+                name = "Schrödinger's Cat",
+                
+                text = {
+                    "This joker has a {C:green}#1# in #2#{} chance",
+                    "to give {C:mult}+#3#{} Mult",
                 },
             },
         }
