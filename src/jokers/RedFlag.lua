@@ -1,5 +1,6 @@
 SMODS.Joker {
     key = "red_flag",
+    atlas = 'placeholders',
     blueprint_compat = true,
     rarity = 2,
     cost = 6,

@@ -1,10 +1,11 @@
 SMODS.Joker {
     key = "shrodingers_cat",
+    atlas = 'placeholders',
     blueprint_compat = true,
     eternal_compat = false,
     rarity = 1,
     cost = 4,
-    pos = { x = 5, y = 11 },
+    pos = { x = 0, y = 0 },
     config = { extra = { odds = 2, Xmult = 3 } },
     loc_vars = function(self, info_queue, card)
         local numerator, denominator = SMODS.get_probability_vars(card, 1, card.ability.extra.odds, 'bves_shrodingers_cat')

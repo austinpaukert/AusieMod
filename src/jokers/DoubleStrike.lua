@@ -1,6 +1,6 @@
 SMODS.Joker {
     key = "double_strike",
-    unlocked = false,
+    atlas = 'placeholders',
     blueprint_compat = true,
     rarity = 2,
     cost = 7,

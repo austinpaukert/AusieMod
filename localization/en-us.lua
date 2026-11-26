@@ -25,7 +25,7 @@ return{
                 text = {
                     "After {C:attention}#1#{} rounds,",
                     "Sell this card for a",
-                    "{C:green}#4# in #5#{} chance to create a blueprint",
+                    "{C:green}#3# in #4#{} chance to create a blueprint",
                     "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)",
                 }
             },

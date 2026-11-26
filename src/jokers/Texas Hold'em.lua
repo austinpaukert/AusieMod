@@ -1,5 +1,6 @@
 SMODS.Joker {
     key = "texas_holdem",
+    atlas = 'placeholders',
     blueprint_compat = true,
     rarity = 1,
     cost = 4,

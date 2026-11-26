@@ -21,7 +21,7 @@ SMODS.Joker {
                 end
             end
         end
-        return { vars = { card.ability.extra.total_rounds, card.ability.extra.current_rounds}, main_end = main_end[1],numerator, denominator }
+        return { vars = { card.ability.extra.total_rounds, card.ability.extra.current_rounds,numerator, denominator}, main_end = main_end[1] }
     end,
     calculate = function(self, card, context)
         if context.selling_self and (card.ability.extra.current_rounds >= card.ability.extra.total_rounds) and not context.blueprint then
