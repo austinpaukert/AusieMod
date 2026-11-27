@@ -4,7 +4,7 @@ SMODS.Joker {
     blueprint_compat = true,
     rarity = 2,
     cost = 7,
-    pos = { x = 0, y = 0 },
+    pos = { x = 6, y = 0 },
     config = { extra = { dollars = 2} },
     loc_vars = function(self, info_queue, card)
         local suit = (G.GAME.current_round.vremade_double_strike or {}).suit or 'Spades'
