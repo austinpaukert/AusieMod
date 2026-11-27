@@ -2,7 +2,7 @@
 
 SMODS.Atlas {
     key = 'placeholders',
-    path = 'placeholders-export.png',
+    path = 'placeholders.png',
     px = 71,
     py = 95
 }
