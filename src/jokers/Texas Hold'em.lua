@@ -4,7 +4,7 @@ SMODS.Joker {
     blueprint_compat = true,
     rarity = 1,
     cost = 4,
-    pos = { x = 5, y = 0 },
+    pos = { x = 0, y = 1 },
     config = { extra = { chips = 0, chip_mod = 15, poker_hand = 'High Card' } },
     loc_vars = function(self, info_queue, card)
         return { vars = {  card.ability.extra.chips, card.ability.extra.chip_mod, localize(card.ability.extra.poker_hand, 'poker_hands') } }
