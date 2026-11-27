@@ -1,7 +1,7 @@
 SMODS.Joker {
     key = "miner",
     atlas = 'placeholders',
-    pos = { x = 0, y = 0},
+    pos = { x = 4, y = 1},
     rarity = 1,
     blueprint_compat = true,
     cost = 5,
