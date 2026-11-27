@@ -1,5 +1,6 @@
 SMODS.Joker {
     key = "one_ring",
+    atlas = 'placeholders',
     blueprint_compat = false,
     rarity = 3,
     cost = 6,
