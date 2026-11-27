@@ -71,6 +71,12 @@ return{
                     "to give {X:red,C:white}X#3#{} Mult",
                 },
             },
+            j_bves_one_ring = {
+                name = "One Ring",
+                text = {
+                    "{C:money} $-#1#{} when at end of round",
+                },
+            },
         }
     }
 }
