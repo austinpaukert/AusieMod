@@ -74,7 +74,8 @@ return{
             j_bves_one_ring = {
                 name = "One Ring",
                 text = {
-                    "{C:money} $-#1#{} when at end of round",
+                    "{C:inactive}(Creates {C:attention}#2#{C:inactive} additional Rare joker)",
+                    "{C:money} $-#1#{} at end of round",
                 },
             },
         }
